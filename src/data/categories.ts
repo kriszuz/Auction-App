@@ -2,43 +2,53 @@ export default {
     categories: [
       {
         name: 'Miasta w Polsce na literę A',
-        items: ['Warszawa', 'Kraków', 'Gdańsk', 'Poznań', 'Wrocław', 'Szczecin', 'Łódź', 'Katowice', 'Białystok', 'Bydgoszcz'],
-        description: 'W Polsce jest 5 miast na litere A'
+        items: ['Abramów', 'Adamów', 'Adamówka', 'Aleksandrów', 'Aleksandrów Kujawski', 'Aleksandrów Łódzki', 'Alwernia', 'Andrespol', 'Andrychów', 'Andrzejewo', "Annopol", "Augustów"],
+        description: 'Istnieje 14 miast na litere A'
+      },
+      {
+        name: 'Miasta w Polsce na literę B',
+        items: ["Bydgoszcz", "Bielsko-Biała", "Białystok", "Bartoszyce", "Bolesławiec", "Bełchatów", "Białogard", "Biała Podlaska", "Barczewo", "Bielawa", "Białogard"],
+        description: 'Istnieje sporo miast na litere B'
+      },
+      {
+        name: 'Kraje graniczace z Polska',
+        items: ["Niemcy", "Czechy", "Słowacja", "Ukraina", "Białoruś", "Litwa", "Rosja", "Słowacja"],
+        description: 'Polska graniczy z siedmioma panstwami'
       },
       {
         name: 'Kraje Europy na literę B',
-        items: ['Polska', 'Niemcy', 'Belgia', 'Bułgaria', 'Bośnia i Hercegowina', 'Chorwacja'],
-        description: 'W Europie jest 7 krajow na litere B'
+        items: ["Belgia", "Bośnia i Hercegowina", "Bułgaria", "Białoruś"],
+        description: 'W Europie sa 4 kraje na litere B'
       },
       {
         name: 'Samochody marki Ford',
-        items: ['Mustang', 'Fiesta', 'Focus', 'Mondeo', 'Kuga', 'EcoSport'],
-        description: 'Istnieje 11 roznych modeli'
+        items: ['Mustang', 'Fiesta', 'Focus', 'Mondeo', 'Kuga', 'EcoSport', "Galaxy", "Explorer", "Ranger", "Transit", "S-Max"],
+        description: 'Ford wyprodukowal ponad 100 roznych modeli aut'
       },
       {
-        name: 'Kolory',
-        items: ['Czerwony', 'Niebieski', 'Zielony', 'Żółty', 'Czarny', 'Biały'],
-        description: 'Istnieje 124 roznych kolorow'
+        name: 'Marki napojów gazowanych',
+        items: ["Coca-Cola", "Pepsi", "Sprite", "Fanta", "7Up", "Mountain Dew", "Dr Pepper", "Schweppes", "Kinley", "Burn", "Red Bull", "Mirinda"],
+        description: "Napoje tego typu sa slodzone i szkodza zdrowiu, jesli ich nie znacie to dobrze"
       },
       {
-        name: 'Zwierzęta',
-        items: ['Pies', 'Kot', 'Królik', 'Chomik', 'Słoń', 'Tygrys'],
-        description: 'Istnieje okolo 200 zwierzat'
+        name: 'Zwierzęta domowe',
+        items: ['Pies', 'Kot', 'Królik', 'Chomik', 'Kanarek', 'Papuga', "Świnka morska", "Myszka", "Szynszyla", "Żółw", "Rybki", "Koszatniczka", "Jaszczurka", "Wąż", "Pająk"],
+        description: 'W polskich domach łącznie mieszka okolo 21 mln zwierzat'
       },
       {
         name: 'Warzywa',
         items: ['Marchew', 'Pomidor', 'Cebula', 'Ziemniak', 'Papryka', 'Seler'],
-        description: 'Istnieje 235 rodzajow warzyw'
+        description: 'Najpopularniejsze wazywo w polsce to ogórek'
       },
       {
         name: 'Owoce',
-        items: ['Jabłko', 'Banany', 'Truskawki', 'Pomarańcze', 'Winogrona', 'Gruszki'],
-        description: 'Istnieje 25 rodzajow owocow'
+        items: ["Jabłko", "Banan", "Mango", "Ananas", "Kiwi", "Pomarańcza", "Grejpfrut", "Cytryna", "Winogrono", "Durian", "Avocado", "Granat", "Liczi", "Tangerin", "Czerwona porzeczka", "Malina", "Brzoskwinia", "Truskawka", "Jagoda", "Morela", "Gruszka", "Borówka"],
+        description: 'Liczba gatunkow owocow na swiecie moze wynosić nawet do kilku dziesiatek tysiecy'
       },
       {
         name: 'Panstwa Europy',
-        items: ['Polska', 'Niemcy', 'Francja', 'Włochy', 'Hiszpania', 'Szwecja'],
-        description: 'Istnieje wiele panstw w Europie'
+        items: ["Albania", "Andora", "Austria", "Belgia", "Białoruś", "Bośnia i Hercegowina", "Bułgaria", "Chorwacja", "Cypr", "Czechy", "Dania", "Estonia", "Finlandia", "Francja", "Grecja", "Hiszpania", "Holandia", "Irlandia", "Islandia", "Kazachstan", "Litwa", "Luksemburg", "Łotwa", "Malta", "Niemcy", "Norwegia", "Polska", "Portugalia", "Rumunia", "Rosja", "Słowacja", "Słowenia", "Szwajcaria", "Szwecja", "Turcja", "Ukraina", "Węgry", "Włochy", "Wielka Brytania"],
+        description: 'Na terenie Europy znajduje się 46 państw'
       },
         // {
         // name: 'Marki smartfonów',
