@@ -62,7 +62,6 @@ nav span{
   display: flex;
   align-items: center;
   gap: 82px;
-  z-index: 999;
 }
 
 .hero-left{
@@ -179,6 +178,7 @@ footer{
     padding-bottom:33px;
     border-radius: 0px 0px 22px 22px;
     background-color: #17181E;
+    z-index: 2;
   }
 
   .hamburger{
