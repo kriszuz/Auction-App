@@ -39,12 +39,17 @@ nav{
   font-size: 20px;
   display: flex;
   align-items: center;
-  gap: 86px;
   margin: 46px auto;
   white-space: nowrap;
   letter-spacing: 0.5px;
   transition: all 0.5s ease;
   z-index: 999;
+}
+
+.nav-links-container{
+  display: flex;
+  align-items: center;
+  gap:86px;
 }
 
 nav span{
@@ -159,14 +164,28 @@ footer{
 }
 
 @media (max-width: 750px){
-  .nav-link, .hero-left .heading-buttons a:nth-child(2), .hero-left p{
+  .nav-links-container, .hero-left .heading-buttons a:nth-child(2), .hero-left p{
     display: none;
+  }
+
+  .nav-links-container.active{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    top: 88px;
+    left: 0;
+    padding-bottom:33px;
+    border-radius: 0px 0px 22px 22px;
+    background-color: #17181E;
   }
 
   .hamburger{
     display: block;
     width: 40px;
     height: 40px;
+    cursor: pointer;
   }
 
   .hero-right img{
