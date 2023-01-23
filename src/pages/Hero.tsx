@@ -15,7 +15,6 @@ const Hero = () => {
         <div className="hero-right">
             <img src="./src/assets/heading-img.png" alt="czlowiek na licytacji" />
         </div>
-
     </section>
   )
 }

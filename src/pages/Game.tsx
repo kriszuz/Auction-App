@@ -50,17 +50,4 @@ const Game = () => {
   )
 }
 
-
-{/* <h2>Wciśnij przycisk aby zacząć grę</h2>
-        <h4>Kategorie:</h4>
-        <div>{data.categories.map((categoria, index) => (
-            <li key={index}>{categoria.name}</li>
-        ))}</div>
-        <button onClick={randomizeCategory}>Losuj kategorie</button>
-        {category && (<div>Aktualnie losowana kategoria: {category.name}
-        
-        <br></br><button onClick={() => setShowMoreItems(!showMoreItems)}>{showMoreItems ? 'Zamknij przykładowe odpowiedzi' : 'Pokaż przykładowe odpowiedzi'}</button></div>)}
-        {showMoreItems && category?.items.map((item, index) => 
-        <li key={index}>{item}</li>)} */}
-
 export default Game
