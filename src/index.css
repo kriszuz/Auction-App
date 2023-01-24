@@ -463,5 +463,52 @@ footer{
   }
 }
 
+/* howtoplay page */
 
+.rules-page-container{
+  margin-inline: auto;
+}
+
+.rules-h2{
+  margin-block: 87px;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.rules-container{
+  width: 100%;
+  min-height: 408px;
+  margin: auto;
+  padding: 50px 65px;
+  background: rgba(39, 41, 57, 0.4);
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  line-height: 30px;
+}
+
+.rules-container ol{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 24px;
+  list-style: none;
+  counter-reset: item;
+}
+
+.rules-container ol li::before{
+    content: counter(item) ".";
+    counter-increment: item;
+    margin-right: 0.5em;
+}
+
+.rules-container p{
+  color: #A8A7A7;
+  font-size: 20px;
+}
 
