@@ -52,6 +52,26 @@ nav{
   gap:86px;
 }
 
+.nav-link{
+  position: relative;
+}
+
+.nav-link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 22px;
+  transition: width 0.3s ease; 
+}
+
+.nav-link:hover::after{
+  width: 100%;
+}
+
 nav span{
   margin-right: auto;
   font-weight: 700;
