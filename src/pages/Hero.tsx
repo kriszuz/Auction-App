@@ -11,8 +11,8 @@ const Hero = () => {
       animate={{scale:1, opacity: 1}}
       transition={{delay: 0.1, duration: 1}}>
         <div className="hero-left">
-            <h1>Baw Sie Licytujac Ze Znajomymi Lub Rodzina</h1>
-            <p>Zajebista rozrywka dla wszystkich w kazdym wieku</p>
+            <h1>Baw Się Licytując Ze Znajomymi Lub Rodziną</h1>
+            <p>Zajebista rozrywka dla wszystkich w każdym wieku</p>
             <div className='heading-buttons'>
                 <Button text="Zagraj" to="/gra"/>
                 <Button text="O grze" to="/jakgrac"/>
