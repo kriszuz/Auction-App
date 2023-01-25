@@ -122,6 +122,7 @@ nav span{
   font-size: 25px;
   line-height: 31.5px;
   letter-spacing: 1.5px;
+  transition: background-color 0.4s ease;
 }
 
 .hero-left .heading-buttons a:first-of-type{
@@ -272,6 +273,19 @@ footer{
   border: none;
   border-radius: 145px;
   cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.game-button:last-of-type{
+  background-color: #54463E;
+}
+
+.game-button:last-of-type:hover{
+  background-color: #3d312b;
+}
+
+.game-button:hover{
+  background-color: #703a1b;
 }
 
 .current-category-container{
@@ -352,10 +366,6 @@ footer{
   letter-spacing: 2px;
   padding: 20px 50px;
   text-align: center;
-}
-
-.game-button:last-of-type{
-  background-color: #54463E;
 }
 
 .examples{
