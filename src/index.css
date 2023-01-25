@@ -128,8 +128,16 @@ nav span{
   background-color: var(--primary-color);
 }
 
+.hero-left .heading-buttons a:first-of-type:hover{
+  background-color: #703a1b;
+}
+
 .hero-left .heading-buttons a:nth-child(2){
   background-color: var(--secondary-color);
+}
+
+.hero-left .heading-buttons a:nth-child(2):hover{
+  background-color: #3a312c;
 }
 
 .hero-right img{

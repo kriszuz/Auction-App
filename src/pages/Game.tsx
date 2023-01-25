@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion"
 import { FaPlay, FaPause, FaRedo } from 'react-icons/fa'
 import Countdown from "../components/Countdown"
 import data from '../data/categories'
-import Button from '../components/Button'
+import Button from '../components/HeroButton'
 
 const Game = () => {
     

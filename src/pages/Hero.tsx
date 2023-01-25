@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../components/Button'
+import HeroButton from '../components/HeroButton'
 import { motion } from "framer-motion"
 
 
@@ -14,8 +14,8 @@ const Hero = () => {
             <h1>Baw Się Licytując Ze Znajomymi Lub Rodziną</h1>
             <p>Zajebista rozrywka dla wszystkich w każdym wieku</p>
             <div className='heading-buttons'>
-                <Button text="Zagraj" to="/gra"/>
-                <Button text="O grze" to="/jakgrac"/>
+                <HeroButton text="Zagraj" to="/gra"/>
+                <HeroButton text="O grze" to="/jakgrac"/>
             </div >
         </div>
         <div className="hero-right">
