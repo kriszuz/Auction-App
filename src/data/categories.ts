@@ -55,15 +55,35 @@ export default {
         items: ['Samsung', 'Apple', 'Xiaomi', 'Huawei', 'OnePlus', 'LG', 'Sony', 'Honor', 'Lenovo', 'HTC'],
         description: 'Najpopularniejszą marką smartfona w Polsce jest Samsung'
       },
+      {
+        name: 'Marki komputerów',
+        items: ['Dell', 'HP', 'Lenovo', 'Apple', 'Acer', 'Asus',"MSI", "Razer", "Microsoft", "Alienware"],
+        description: 'Najpopularniejszą marką komputera w Polsce jest Lenovo'
+      },
+      {
+        name: 'Gatunki muzyki',
+        items: ["Jazz", "Blues", "Rock", "Pop", "Hip-hop", "Elektroniczna", "R&B", "Country", "Folk", "Reggae", "Metal", "Klasyczna", "Soul", "Funk", "Punk", "Grunge", "Indie", "Latin", "Gospel"],
+        description: 'W Polsce występuje duże zróżnicowanie gustów muzycznych'
+      },
+      {
+        name: 'Dania z McDonalds',
+        items: ["Big Mac", "Hamburger", "McChicken", "Filet-O-Fish", "Cheeseburger", "Happy Meal", "Frytki", "Ciastko z jabłkiem", "McFlurry", "Nuggetsy", "McChicken", "McWrap"],
+        description: 'Pierwsza restauracja McDonalds w Polsce otwarta została w 1992 roku w Warszawie'
+      },
+      {
+        name: 'Dania włoskie',
+        items: ["Pizza", "Spaghetti", "Lasagne", "Risotto", "Tiramisu", "Focaccia", "Ravioli", "Minestrone", "Tortellini", "Carpaccio"],
+        description: 'Najsłynniejsza włoska potrawa – pizza, została wymyślona na cześć królowej Margherity'
+      },
+      {
+        name: 'Klasyczne dania kuchni Polskiej',
+        items: ["Bigos", "Żurek", "Pierogi", "Rosół", "Schabowy", "Barszcz czerwony", "Karp", "Pyzy", "Racuchy", "Zupa ogórkowa", "Kaszanka", "Grochówka", "Kopytka", "Gołąbki"],
+        description: 'Polacy najbardziej lubią schaboszczaka'
+      },
+      
     
-        // {
-        // name: 'Marki samochodów',
-        // items: ['BMW', 'Mercedes-Benz', 'Audi', 'Volkswagen', 'Toyota', 'Ford']
-        // },
-        // {
-        // name: 'Marki komputerów',
-        // items: ['Dell', 'HP', 'Lenovo', 'Apple', 'Acer', 'Asus']
-        // },
+        
+        
         // {
         // name: 'Marki zegarków',
         // items: ['Rolex', 'Omega', 'Tag Heuer', 'Breitling', 'Longines', 'Tissot']
