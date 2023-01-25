@@ -26,14 +26,17 @@ const Game = () => {
         }}
 
   return (
-    <section 
-      className='game-section container'>
+    <motion.section 
+      className='game-section container'
+      initial={{scale:0.99, opacity:0}}
+      animate={{scale:1, opacity: 1}}
+      transition={{delay: 0.2, duration: 1}}>
         <motion.button 
           className='game-button' 
           onClick={randomizeCategory}
           initial={{y: 100}}
           animate={startingButtonAnimation}
-          transition={{duration: 0.2}}
+          transition={{duration: 0.7}}
           >
           {isStarted? "POWTÓRZ LOSOWANIE" : "ROZPOCZNIJ"}
         </motion.button>
@@ -43,14 +46,14 @@ const Game = () => {
           className="current-category-container"
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
-          transition={{duration: 0.5, delay: 0.3}}>
+          transition={{duration: 0.7, delay: 0.8}}>
           {category && <span>{category.name}</span>}
         </motion.div>
         <motion.div 
           className="timer-info-container"
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
-          transition={{duration: 0.5, delay: 0.4}}>
+          transition={{duration: 0.7, delay: 0.9}}>
           {category && 
           <Countdown category={category}/>} 
           {/* sprawdzamy czy jest wybrana kategoria aby nie przekazywac do komponentu undefinded category */}
@@ -63,7 +66,7 @@ const Game = () => {
           onClick={() => setShowMoreItems(!showMoreItems)}
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
-          transition={{duration: 0.5, delay: 0.45}}>
+          transition={{duration: 0.7, delay: 0.95}}>
           ODPOWIEDZI
         </motion.button>
         {showMoreItems && 
@@ -76,7 +79,7 @@ const Game = () => {
         </motion.div>
         }</>
         )}
-    </section>
+    </motion.section>
   )
 }
 
