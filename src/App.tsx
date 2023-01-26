@@ -4,8 +4,9 @@ import NavBar from './components/NavBar'
 import Hero from './pages/Hero'
 import Footer from './components/Footer'
 import Game from './pages/Game'
-import About from './pages/About'
+import Categories from './pages/Categories'
 import HowToPlay from './pages/HowToPlay'
+
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
         <Route path='/' element={<Hero />}/>
         <Route path='/gra' element={<Game />}/>
         <Route path='/jakgrac' element={<HowToPlay />}/>
-        <Route path='/kategorie' element={<About /> }/>
+        <Route path='/kategorie' element={<Categories /> }/>
         {/* 404 page */}
         <Route path="*" element={<h1>404</h1>} /> 
     </Routes>

@@ -551,3 +551,48 @@ footer{
   font-size: 20px;
 }
 
+/* categories page  */
+
+.categories-container {
+  margin: 150px auto 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.categories-container h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.counting{
+  color: #d16e34;
+}
+
+.categories-list-container{
+  background: rgba(30, 31, 39, 0.4);
+  padding: 40px 50px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  border-radius: 22px;
+}
+
+.categories-list-container ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories-list-container ul li{
+  text-align: center;
+  width: 50%;
+}
+
+
+
