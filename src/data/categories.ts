@@ -80,6 +80,56 @@ export default {
         items: ["Bigos", "Żurek", "Pierogi", "Rosół", "Schabowy", "Barszcz czerwony", "Karp", "Pyzy", "Racuchy", "Zupa ogórkowa", "Kaszanka", "Grochówka", "Kopytka", "Gołąbki"],
         description: 'Polacy najbardziej lubią schaboszczaka'
       },
+      {
+        name: 'Marki zegarków',
+        items: ['Rolex', 'Omega', 'Tag Heuer', 'Breitling', 'Longines', 'Tissot'],
+        description: 'Casio to najbardziej rozpoznawalna marka zegarków w Polsce'
+      },
+      {
+        name: 'Marki perfum',
+        items: ['Chanel', 'Dior', 'Armani', 'Yves Saint Laurent', 'Gucci', 'Calvin Klein', 'Hugo Boss', 'Prada', 'Versace', 'Dolce & Gabbana', 'Burberry'],
+        description: 'Chanel No. 5 to najsłynniejszy i najdłużej sprzedających się perfum na świecie'
+      },
+      {
+        name: 'Marki butów',
+        items: ['Adidas', 'Nike', 'Puma', 'Reebok', 'New Balance', 'Converse'],
+        description: 'Najdroższe buty na świecie kosztują 62 mln zł'
+      },
+      {
+        name: 'Marki odzieżowe',
+        items: ['Zara', 'H&M', 'Mango', 'Massimo Dutti', 'Pull&Bear', 'Bershka'],
+        description: 'Najpopularniejsza marką w Polsce jest Zara'
+      },
+      {
+        name: 'Części komputera',
+        items: ['Procesor', 'Płyta główna', 'Pamięć RAM', 'Chłodzenie', 'Karta graficzna', 'Dysk'],
+        description: 'Przynajmniej jeden komputer w domu posiada 83,1% gospodarstw domowych'
+      },
+      {
+        name: 'Części komputera',
+        items: ['Procesor', 'Płyta główna', 'Pamięć RAM', 'Chłodzenie', 'Karta graficzna', 'Dysk'],
+        description: 'Przynajmniej jeden komputer w domu posiada 83,1% gospodarstw domowych'
+      },
+      {
+        name: 'Języki romańskie',
+        items: ['Hiszpański', 'Portgalski', 'Francuski', 'Włoski', 'Rumuński', 'Kataloński'],
+        description: 'Języki te rozwinęły się w okresie preromańskim z łaciny ludowej'
+      },
+      {
+        name: 'Języki germańskie',
+        items: ['Angielski', 'Niderlandzki', 'Niemiecki', 'Szwedzki', 'Duński', 'Islandzki'],
+        description: 'Wyróżniamy około 15 języków germańskich'
+      },
+      {
+        name: 'Polskie bajki',
+        items: ['Bolek i Lolek', 'Reksio', 'Zaczarowany ołówek', 'Opowiadania Muminków', 'Koziołek Matołek', 'Miś uszatek', 'Jacek i Agatka'],
+        description: 'A teraz, drogie dzieci, pocałujcie misia w dupę'
+      },
+      {
+        name: 'Tytuły filmów Star Wars',
+        items: ['Mroczne widmo', 'Atak klonów', 'Zemsta Sithów', 'Nowa Nadzieja', 'Imperium Kontratakuje', 'Powrót Jedi', 'Przebudzenie mocy', 'Ostatni Jedi', 'Skywalker odrodzenie'],
+        description: 'A teraz, drogie dzieci, pocałujcie misia w dupę'
+      },
   
         // {
         // name: 'Marki zegarków',

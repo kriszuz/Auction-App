@@ -19,8 +19,6 @@ const About = () => {
           <li key={category.name}>{category.name}</li>))}
         </ul>
       </motion.div>
-
-    
     </section>
   )
 }
