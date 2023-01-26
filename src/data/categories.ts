@@ -80,10 +80,7 @@ export default {
         items: ["Bigos", "Żurek", "Pierogi", "Rosół", "Schabowy", "Barszcz czerwony", "Karp", "Pyzy", "Racuchy", "Zupa ogórkowa", "Kaszanka", "Grochówka", "Kopytka", "Gołąbki"],
         description: 'Polacy najbardziej lubią schaboszczaka'
       },
-      
-    
-        
-        
+  
         // {
         // name: 'Marki zegarków',
         // items: ['Rolex', 'Omega', 'Tag Heuer', 'Breitling', 'Longines', 'Tissot']

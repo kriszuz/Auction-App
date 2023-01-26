@@ -18,7 +18,7 @@ const App = () => {
         <Route path='/' element={<Hero />}/>
         <Route path='/gra' element={<Game />}/>
         <Route path='/jakgrac' element={<HowToPlay />}/>
-        <Route path='/tworca' element={<About /> }/>
+        <Route path='/kategorie' element={<About /> }/>
         {/* 404 page */}
         <Route path="*" element={<h1>404</h1>} /> 
     </Routes>

@@ -18,7 +18,7 @@ const NavBar = () => {
          <div className={responsiveNavOpen ? "nav-links-container active" : "nav-links-container"}>
             <Link to="/gra" className='nav-link' onClick={() => closeNav()}>Graj</Link>
             <Link to="/jakgrac" className='nav-link' onClick={() => closeNav()}>Jak grać?</Link>
-            <Link to="/tworca" className='nav-link' onClick={() => closeNav()}>Twórca</Link>
+            <Link to="/kategorie" className='nav-link' onClick={() => closeNav()}>Kategorie</Link>
          </div >
         <BiMenuAltRight className='hamburger' onClick={() => setResponsiveNavOpen(!responsiveNavOpen)}/>
     </nav>
