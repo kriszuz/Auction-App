@@ -11,7 +11,7 @@ export default {
         description: 'Istnieje sporo miast na literę B'
       },
       {
-        name: 'Kraje graniczace z Polska',
+        name: 'Kraje graniczące z Polska',
         items: ["Niemcy", "Czechy", "Słowacja", "Ukraina", "Białoruś", "Litwa", "Rosja", "Słowacja"],
         description: 'Polska graniczy z siedmioma państwami'
       },
@@ -103,12 +103,12 @@ export default {
       {
         name: 'Części komputera',
         items: ['Procesor', 'Płyta główna', 'Pamięć RAM', 'Chłodzenie', 'Karta graficzna', 'Dysk'],
-        description: 'Przynajmniej jeden komputer w domu posiada 83,1% gospodarstw domowych'
+        description: 'Przynajmniej jeden komputer w domu posiada 83% gospodarstw domowych'
       },
       {
-        name: 'Części komputera',
-        items: ['Procesor', 'Płyta główna', 'Pamięć RAM', 'Chłodzenie', 'Karta graficzna', 'Dysk'],
-        description: 'Przynajmniej jeden komputer w domu posiada 83,1% gospodarstw domowych'
+        name: 'Części samochodu',
+        items: ['Nadwozie', 'Podwozie', 'Układ napędowy', 'Układ kierowniczy', 'Układ hamulcowy', 'Zawieszenie', 'Silnik', 'Siedzenia', 'Lusterka'],
+        description: 'Najpopularniejsza marka samochodu w Polsce to Volkswagen'
       },
       {
         name: 'Języki romańskie',
@@ -128,7 +128,17 @@ export default {
       {
         name: 'Tytuły filmów Star Wars',
         items: ['Mroczne widmo', 'Atak klonów', 'Zemsta Sithów', 'Nowa Nadzieja', 'Imperium Kontratakuje', 'Powrót Jedi', 'Przebudzenie mocy', 'Ostatni Jedi', 'Skywalker odrodzenie'],
-        description: 'A teraz, drogie dzieci, pocałujcie misia w dupę'
+        description: 'Istnieją trzy trylogie filmów Star Wars'
+      },
+      {
+        name: 'Firmy produkujące sprzęd dla graczy',
+        items: ['Logitech', 'Razer', 'SteelSeries', 'MSI', 'Corsair', 'SPS', 'Nacon', 'Genesis', 'Thrustmaster'],
+        description: 'Polacy lubia strzelanki'
+      },
+      {
+        name: 'Wyroby mleczne',
+        items: ['Kefir', "Maslanka", "Jogurt"],
+        description: 'Kefir jest bardzo zdrowy!'
       },
   
         // {
