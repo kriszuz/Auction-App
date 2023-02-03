@@ -17,5 +17,6 @@ A web application that allows users to randomly select a category for auction, w
 - React Router
 - Framer Motion
 - Vite
+- Figma
 
 
