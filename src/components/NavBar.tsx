@@ -1,7 +1,6 @@
 import React, { useState} from 'react'
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 const NavBar = () => {
 
@@ -14,10 +13,7 @@ const NavBar = () => {
   }
   
   return (
-    <motion.nav className='container'
-        initial={{opacity:0}}
-        animate={{opacity: 1}}
-        transition={{delay: 0.2, duration: 1}}>
+    <nav className='container'>
       <span><Link to="/">LICYTACJA</Link ></span>
       <div className={responsiveNavOpen ? "nav-links-container active" : "nav-links-container"}
          >
@@ -26,7 +22,7 @@ const NavBar = () => {
             <Link to="/kategorie" className='nav-link' onClick={() => closeNav()}>Kategorie</Link>
       </div >
       <BiMenuAltRight className='hamburger' onClick={() => setResponsiveNavOpen(!responsiveNavOpen)}/>
-    </motion.nav>
+    </nav>
   )
 }
 

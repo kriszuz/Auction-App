@@ -603,5 +603,16 @@ footer{
   }
 }
 
+.fail-page{
+  text-align: center;
+  margin-top: 7em;
+  color: #b9b9b9;
+}
+
+.fail-page span{
+  color: #d16e34;
+  text-decoration:underline;
+  cursor: pointer;
+}
 
 

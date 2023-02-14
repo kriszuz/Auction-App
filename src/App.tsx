@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Game from './pages/Game'
 import Categories from './pages/Categories'
 import HowToPlay from './pages/HowToPlay'
+import ErrorPage from './pages/404'
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
         <Route path='/jakgrac' element={<HowToPlay />}/>
         <Route path='/kategorie' element={<Categories /> }/>
         {/* 404 page */}
-        <Route path="*" element={<h1>404</h1>} /> 
+        <Route path="*" element={<ErrorPage />} /> 
     </Routes>
 
     <Footer />
