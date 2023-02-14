@@ -350,6 +350,15 @@ footer{
 
 .control-icon{
   cursor: pointer;
+  transition: .3s ease;
+}
+
+.control-icon:hover{
+  scale: 1.15;
+}
+
+.control-icon:active{
+  color: #A8A7A7;
 }
 
 .info-container{
